@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\SPRING 2020\\SDEV 264\\KellerNaomi_FinalProj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "G:\\SPRING 2020\\SDEV 264\\KellerNaomi_FinalProj\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "4,5,6,2,3,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "157,204,255,57,105,310",
+                        "endColumns": "45,49,53,46,50,43",
+                        "endOffsets": "198,249,304,99,151,349"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,101,151,205,252,303",
+                        "endColumns": "45,49,53,46,50,43",
+                        "endOffsets": "96,146,200,247,298,342"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\drumm\\.gradle\\caches\\transforms-2\\files-2.1\\7df26908078c74ff4eeaf46e7b6b476c\\appcompat-1.0.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "347,417,501,585,681,783,885",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "412,496,580,676,778,880,974"
+                    }
+                }
+            ]
+        }
+    ]
+}

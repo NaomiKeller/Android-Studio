@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorBackground">
+
+    <!-- The bill amount -->
+
+    <TextView
+        android:id="@+id/TaskLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/task_label"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"/>
+
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/TaskLabel"
+                android:layout_alignLeft="@+id/TaskLabel"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="127dp"
+                android:text="@string/task1"
+                android:textColor="@color/colorText" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox1"
+                android:layout_alignStart="@+id/checkBox1"
+                android:layout_alignLeft="@+id/checkBox1"
+                android:layout_alignEnd="@+id/checkBox1"
+                android:layout_alignRight="@+id/checkBox1"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:text="@string/task2"
+                android:textColor="@color/colorText" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox2"
+                android:layout_alignStart="@+id/checkBox2"
+                android:layout_alignLeft="@+id/checkBox2"
+                android:layout_alignEnd="@+id/checkBox2"
+                android:layout_alignRight="@+id/checkBox2"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:text="@string/task3"
+                android:textColor="@color/colorText" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox3"
+                android:layout_alignStart="@+id/checkBox3"
+                android:layout_alignLeft="@+id/checkBox3"
+                android:layout_alignEnd="@+id/checkBox3"
+                android:layout_alignRight="@+id/checkBox3"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginRight="-1dp"
+                android:text="@string/task4"
+                android:textColor="@color/colorText" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox4"
+                android:layout_alignStart="@+id/checkBox4"
+                android:layout_alignLeft="@+id/checkBox4"
+                android:layout_alignEnd="@+id/checkBox4"
+                android:layout_alignRight="@+id/checkBox4"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginRight="-1dp"
+                android:text="@string/task5"
+                android:textColor="@color/colorText" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="22dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="30dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="30dp"
+                android:text="@string/buttonReset"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TaskLabel"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="62dp"
+                android:layout_toEndOf="@+id/checkBox1"
+                android:layout_toRightOf="@+id/checkBox1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/Text1"
+                android:textColor="@color/colorText" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText1"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@+id/checkBox2"
+                android:layout_toRightOf="@+id/checkBox2"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/Text2"
+                android:textColor="@color/colorText" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText2"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@+id/checkBox3"
+                android:layout_toRightOf="@+id/checkBox3"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/Text3"
+                android:textColor="@color/colorText" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText3"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@+id/checkBox4"
+                android:layout_toRightOf="@+id/checkBox4"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/Text4"
+                android:textColor="@color/colorText" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText4"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@+id/checkBox5"
+                android:layout_toRightOf="@+id/checkBox5"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/Text5"
+                android:textColor="@color/colorText" />
+
+</RelativeLayout>

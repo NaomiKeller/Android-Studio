@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\SPRING 2020\\SDEV 264\\KellerNaomi_FinalProj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "G:\\SPRING 2020\\SDEV 264\\KellerNaomi_FinalProj\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,79",
+                        "endColumns": "60,70",
+                        "endOffsets": "73,145"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,115",
+                        "endColumns": "59,69",
+                        "endOffsets": "110,180"
+                    }
+                }
+            ]
+        }
+    ]
+}

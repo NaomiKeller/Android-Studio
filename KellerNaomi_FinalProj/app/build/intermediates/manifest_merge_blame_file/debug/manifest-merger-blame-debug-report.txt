@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.murach.dailyplanner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:7:5-29:19
+12        android:allowBackup="true"
+12-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:8:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.0] C:\Users\drumm\.gradle\caches\transforms-2\files-2.1\246153fc0686d4ff78c8961ca91329b7\core-1.0.0\AndroidManifest.xml:22:18-86
+14        android:configChanges="orientation|keyboardHidden|screenSize"
+14-->[gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\drumm\.gradle\caches\transforms-2\files-2.1\ef94a0c5c80cba559f1377c36eebfea3\easy-android-splash-screen-0.0.1\AndroidManifest.xml:14:9-70
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:9:9-43
+17        android:label="@string/app_name"
+17-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:10:9-41
+18        android:supportsRtl="true"
+18-->[gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\drumm\.gradle\caches\transforms-2\files-2.1\ef94a0c5c80cba559f1377c36eebfea3\easy-android-splash-screen-0.0.1\AndroidManifest.xml:16:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:12:9-20:20
+22            android:name="com.murach.dailyplanner.SplashScreen"
+22-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:13:13-41
+23            android:label="@string/title_activity_tip_calculator" >
+23-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:14:13-66
+24            <intent-filter>
+24-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:16:17-69
+25-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:18:17-77
+27-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.murach.dailyplanner.DailyPlannerActivity" />
+30-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:21:9-67
+30-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:21:19-55
+31        <activity
+31-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:22:9-24:72
+32            android:name="com.murach.dailyplanner.SettingsActivity"
+32-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:23:13-45
+33            android:label="@string/title_activity_settings" />
+33-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:24:13-60
+34        <activity
+34-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:25:9-28:59
+35            android:name="com.murach.dailyplanner.AboutActivity"
+35-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:26:13-42
+36            android:label="@string/title_activity_about"
+36-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:27:13-57
+37            android:theme="@style/DialogTheme" />
+37-->G:\SPRING 2020\SDEV 264\KellerNaomi_FinalProj\app\src\main\AndroidManifest.xml:28:13-47
+38    </application>
+39
+40</manifest>

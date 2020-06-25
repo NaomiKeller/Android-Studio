@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\SPRING 2020\\SDEV 264\\KellerNaomi_FinalProj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-port-v13\\values-sw600dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "G:\\SPRING 2020\\SDEV 264\\KellerNaomi_FinalProj\\app\\src\\main\\res\\values-sw600dp-port\\layout.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "11",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

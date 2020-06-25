@@ -1,0 +1,80 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\SPRING 2020\\SDEV 264\\Midterm_TipCalculator\\app\\build\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "F:\\SPRING 2020\\SDEV 264\\Midterm_TipCalculator\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "81",
+                        "endOffsets": "134"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "80",
+                        "endOffsets": "131"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\SPRING 2020\\SDEV 264\\Midterm_TipCalculator\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "F:\\SPRING 2020\\SDEV 264\\Midterm_TipCalculator\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "3",
+                        "endColumns": "12",
+                        "endOffsets": "142"
+                    },
+                    "to": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "776",
+                        "endLines": "18",
+                        "endColumns": "12",
+                        "endOffsets": "860"
+                    }
+                },
+                {
+                    "source": "F:\\SPRING 2020\\SDEV 264\\Midterm_TipCalculator\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,100",
+                        "endColumns": "44,38",
+                        "endOffsets": "95,134"
+                    }
+                },
+                {
+                    "source": "F:\\SPRING 2020\\SDEV 264\\Midterm_TipCalculator\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "139,191,224,282,321,360,411,456,505,549,603,676,723",
+                        "endColumns": "51,32,57,38,38,50,44,48,43,53,72,46,52",
+                        "endOffsets": "186,219,277,316,355,406,451,500,544,598,671,718,771"
+                    }
+                }
+            ]
+        }
+    ]
+}

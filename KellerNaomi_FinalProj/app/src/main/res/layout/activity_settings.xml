@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/colorBackground">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/colorCardBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cardTitle"
+                android:textColor="@color/colorText"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"/>
+
+            <Button
+                android:id="@+id/buttonLight"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:text="@string/textLightButton" />
+
+            <Button
+                android:id="@+id/buttonDark"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="#181818"
+                android:textColor="#FFFFFF"
+                android:text="@string/textButtonDark" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

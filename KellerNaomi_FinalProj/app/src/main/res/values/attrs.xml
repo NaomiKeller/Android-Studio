@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // styling for settings
+    <declare-styleable name="ds">
+        <attr name="backgroundColor" format="reference" />
+        <attr name="cardBackground" format="reference" />
+        <attr name="textColor" format="reference" />
+        <attr name="tintColor" format="reference" />
+        <attr name="buttonColor" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="FontStyle">
+        <attr name="font_small" format="dimension" />
+        <attr name="font_medium" format="dimension" />
+        <attr name="font_large" format="dimension" />
+        <attr name="font_xlarge" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,4 @@
+#Fri Feb 28 18:57:05 EST 2020
+base.0=G\:\\SPRING 2020\\SDEV 264\\sample files\\ex_solutions\\ch08_ex3_TipCalculator_sol\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

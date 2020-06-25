@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoopsApp</string>
+    <string name="whileTxt">While</string>
+    <string name="doWhileText">Do While</string>
+    <string name="forText">For</string>
+    <string name="forEText">Enh. For</string>
+    <string name="textView1">num</string>
+</resources>
